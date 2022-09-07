@@ -1,0 +1,211 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: black;
+}
+
+.blog-entries {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 100px;
+}
+
+.blog-title {
+  text-align: center;
+  color: brown;
+}
+
+.game-title {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.add-title {
+  font-size: x-large;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  color: lightgrey;
+  text-align: center;
+  text-decoration: none;
+}
+
+p > b {
+  font-style: bold;
+  color: red;
+}
+
+.blog-card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: darkslategray;
+  color: white;
+  align-items: center;
+  border: solid 4px darkcyan;
+  margin: 1rem auto;
+  padding: 2rem;
+  border-radius: 10%;
+  width: 300px;
+  text-decoration: none;
+}
+
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  background-color: darkslategray;
+  color: white;
+  align-items: center;
+  border: solid 4px darkcyan;
+  margin: 1rem auto;
+  padding: 2rem;
+  border-radius: 10%;
+  width: 300px;
+  height: 600px;
+  text-decoration: none;
+}
+
+.single-post {
+  background-color: darkslategray;
+  color: white;
+  align-items: center;
+  border: solid 4px darkcyan;
+  margin: 1rem auto;
+  padding: 2rem;
+  border-radius: 10%;
+  width: 300px;
+  height: 600px;
+  text-decoration: none;
+}
+
+.add-container {
+  display: flex;
+  flex-direction: column;
+  background-color: darkslategray;
+  color: white;
+  align-items: center;
+  border: solid 4px darkcyan;
+  margin: 1rem auto;
+  padding: 2rem;
+  border-radius: 10%;
+  width: 300px;
+  height: 600px;
+  text-decoration: none;
+}
+img {
+  height: 400px;
+  width: 100%;
+  object-fit: none;
+  border-radius: 15%;
+  text-decoration: none;
+}
+
+.admin-btn {
+  display: flex;
+  justify-content: center;
+  padding: 3px 3px 3px 3px;
+  margin: 0 auto auto auto;
+  width: 100px;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  background-color: lightgreen;
+  border-color: brown;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.add-btn {
+  display: flex;
+  justify-content: center;
+  padding: 3px 3px 3px 3px;
+  margin: 0 auto auto auto;
+  width: 100px;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  background-color: lightgreen;
+  border-color: brown;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.update-btn {
+  display: flex;
+  margin: auto;
+  text-align: center;
+}
+
+.buttons {
+  padding: 3px 3px 3px 3px;
+  margin: 0 auto auto auto;
+  width: 100px;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  border-color: brown;
+  text-decoration: none;
+}
+
+.add-review {
+  color: white;
+  align-items: center;
+  margin: 1rem auto;
+  padding: 2rem;
+  width: 300px;
+  text-decoration: none;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 216px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.about-page {
+  color: white;
+  text-align: center;
+  font-style: bold;
+}
+
+.error404 {
+  color: red;
+  text-align: center;
+  font-style: bold;
+}
+
+.footer{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 100px 5px;
+  text-decoration: none;
+}
